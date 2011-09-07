@@ -4,6 +4,8 @@ Coordinate Transforms
 Coordinate transforms are a set of functions that alter a lat/lon point or
 a coordinate vector. The functions include:
 
+--------------------------------------------------------------------------
+
 ####toOrtho:
 Converts a lat/lon point to a two dimensional orthrographic 
 projection point.
@@ -22,6 +24,7 @@ console.log (toOrtho ([-90, 0]));
 1.2246063538223773e-16, 0
 ```
 
+--------------------------------------------------------------------------
 
 ####toWebGL:
 Converts a lat/lon point to three dimensional WebGL point.
@@ -40,6 +43,7 @@ console.log (toWebGL ([-90, 0]));
 6.123031769111886e-17, -1, 0
 ```
 
+--------------------------------------------------------------------------
 
 ####scale:
 Scales a vertex.
@@ -58,6 +62,7 @@ console.log (scale ([1, 1, 1], 3));
 3, 3, 3
 ```
 
+--------------------------------------------------------------------------
 
 ####shift:
 Shifts a vertex.
@@ -76,6 +81,7 @@ console.log (shift ([0, 0, 0], 10, 1));
 0, 10, 0
 ```
 
+--------------------------------------------------------------------------
 
 ####invert:
 Inverts a vertex.
@@ -95,6 +101,7 @@ console.log (invert ([0, 0, 3], 10, 2));
 0, 0, 7
 ```
 
+--------------------------------------------------------------------------
 
 ####Copyright (C) 2011 Thomas P. Lahoda
 
